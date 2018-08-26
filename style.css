@@ -119,4 +119,28 @@ footer h4 {
 section #video {
   max-width: 100%;
   height: auto;
+  position: relative;    
   }
+
+  .overlay {
+    position:absolute;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay p {
+  font-family: 'Slabo 27px', serif;
+  font-size: 2vw;
+  color: whitesmoke;
+  border: 0px solid red;
+  background-color: rgb(151, 50, 25);
+  padding: 0 0;
+  width: 100%;
+  margin: 0 auto;
+  opacity: 0.85;
+  text-align: center;
+  text-transform: uppercase;
+}
